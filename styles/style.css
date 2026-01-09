@@ -1,3 +1,125 @@
 *{
-    background-color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 16px   ;
+    padding-bottom: 16px;
+    background-color:white
+}
+.nav-holder{
+
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+}
+
+.nav-ul-holder{
+    width: 355px ;
+}
+nav ul{
+  
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+    justify-content: space-between;
+}
+nav button{
+    width: 164px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 44px;
+}
+button:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+    cursor: pointer;
+    font-style: italic;
+}
+.hero{
+   height: 674px;
+   background-image: url(../assets/hero-bg.png);
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.white-heading{
+    color: white;
+}
+.green-heading{
+    color: #30B868;
+}
+
+.hero-holder{
+    height: 379px;
+    width: 1360px;
+   
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.hero-holder p{
+    color: white;
+    font-size: medium;
+
+}
+
+.small-icon-message
+{
+    width: 229px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 100;
+    background-color: rgb(216, 248, 238);
+}
+
+.small-icon-message p{
+    color: #1eb45d;
+    font-size:medium ;
+}
+.hero-btn-holders{
+    width: 340px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.right-hero-btn{
+    width: 181px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border: none;
+    border-radius: 5px;
+}
+.left-hero-btn{
+    width: 145px;
+    border: none;
+    border-radius: 5px;
+}
+.fa-solid ,.fa-arrow-right{
+    margin-left: 5px;
+}
+
+.fa-solid ,.fa-play{
+    margin-right:5px;
 }
