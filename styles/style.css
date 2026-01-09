@@ -272,3 +272,110 @@ button:hover{
 .green-check{
     color: #30B868;
 }
+
+
+
+.bonus{
+    width: 100%;
+    height: 520px;
+  
+    
+}
+
+.bonus-container{
+
+    width: 1400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+}
+
+.bonus-container h4{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 25, 49, 1);
+
+}
+.bonus-container p{
+    text-align: center;
+    color: #627382;
+}
+.bns-btn{
+    width: 194px;
+    height: 52px;
+    background-color: #207e47;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 6px 7px rgba(0, 0, 0, 0.03);
+    
+}
+.bns-arr{
+    padding-left:15px;
+}
+.bonus-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 348px;
+    background-color: #001931;
+    /* background-color: antiquewhite; */
+    padding-top: 120px;
+}
+
+.footer-links{
+    width: 1400px;
+    height: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li{
+    list-style: none;
+    color: white;
+    
+}
+footer ul{
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.fa-brands{
+    margin-right: 10px;
+}
+
+.copy{
+    width: 1400px;
+    border-top: 0.2px dotted rgb(167, 167, 167);
+    height: 54px;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+.copy p{
+    color: white;
+    font-size: 16;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
