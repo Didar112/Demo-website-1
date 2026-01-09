@@ -214,3 +214,61 @@ button:hover{
     margin-bottom: 10px;
 
 }
+
+.brain{
+    width: 100%;
+    height: 865px;
+    /* border: 2px solid black; */
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.brain-content{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+}
+.brain-info
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+
+}
+.brain-p{
+    color: rgba(70, 145, 101, 1);
+    font-size: 16;
+    font-weight: bolder;
+}
+.brain h4{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.info-box{
+    /* border: 1px solid red; */
+
+}
+.info-text{
+    color: #627382;
+}
+.info-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.info-box li{
+    list-style: none;
+    font-size: 16;
+    font-weight: 500;
+
+    
+}
+.green-check{
+    color: #30B868;
+}
