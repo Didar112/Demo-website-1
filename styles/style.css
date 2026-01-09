@@ -98,6 +98,7 @@ button:hover{
     font-size:medium ;
     
 }
+
 .hero-btn-holders{
     width: 370px;
     height: 55px;
@@ -127,4 +128,89 @@ button:hover{
 
 .fa-solid ,.fa-play{
     margin-right:5px;
+}
+.small-icon-text-color{
+    color: #30B868;
+}
+.green-logo{
+    color: #30B868;
+}
+
+.common-width{
+    max-width: 1400px;
+}
+
+.part-2{
+
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.p2-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 66px;
+    width: 1400px;
+
+}
+
+.p2-heading{
+    text-align: center;
+}
+.p2-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.cards{
+    border-radius: 8px;
+    height: 240px;
+    width: 320px;
+    background-color: white;
+     box-shadow: 0px 4px 5px 7px rgba(0, 0, 0, 0.01);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+.cards h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.cards p{
+    font-size: 16;
+    font-weight:normal;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card-logo{
+    background-color: orangered;
+    color: white;
+    font-size: x-large;
+    width: 60px;
+    height: 60px;
+    /* display: inline-block; */
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    margin-bottom: 10px;
+
 }
