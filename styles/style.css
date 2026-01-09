@@ -87,24 +87,26 @@ button:hover{
 {
     width: 229px;
     margin-bottom: 16px;
+    padding: 10px;
     border: none;
-    border-radius: 100;
-    background-color: rgb(216, 248, 238);
+    border-radius: 35px;
+    background-color: white
 }
 
 .small-icon-message p{
     color: #1eb45d;
     font-size:medium ;
+    
 }
 .hero-btn-holders{
-    width: 340px;
+    width: 370px;
     height: 55px;
     display: flex;
     justify-content: space-between;
     margin-top: 38px;
 }
 .right-hero-btn{
-    width: 181px;
+    width: 210px;
     background-color: #30B868;
     color: white;
     border: none;
